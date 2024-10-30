@@ -6,13 +6,12 @@
 #Copyright © 2024-2024 Seityagiya Terlekchi. All rights reserved.
 
 cmake_minimum_required(VERSION 3.0)
+
+project(my_calc)
+
 set(CMAKE_C_STANDARD 11)
-add_definitions(-std=c11)
 
 set(VERSION 0.1)
-set(PROJECT_NAME my_calc)
-
-project(${PROJECT_NAME})
 
 set(SRC_LIST
     my_calc.c
