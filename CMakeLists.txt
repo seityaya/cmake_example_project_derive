@@ -6,13 +6,8 @@
 #Copyright © 2024-2024 Seityagiya Terlekchi. All rights reserved.
 
 cmake_minimum_required(VERSION 3.0)
-set(CMAKE_C_STANDARD 11)
-add_definitions(-std=c11)
 
-set(VERSION 0.1)
-set(PROJECT_NAME my_calculator_project)
-
-project(${PROJECT_NAME})
+project(my_calculator_project)
 
 add_subdirectory(core)
 add_subdirectory(test)
