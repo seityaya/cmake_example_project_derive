@@ -27,6 +27,6 @@ int main(int argc, char* argv[]) {
         printf("Test @ Failure\n");
         return -1;
     }
-    printf("Test Pased!\n");
+    printf("Test Passed!\n");
     return 0;
 }
