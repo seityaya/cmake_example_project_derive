@@ -1,3 +1,8 @@
+# Yaya hack
+ ./libs/*
+!./libs/CMakeLists.txt
+
+
 # C++ objects and libs
 *.slo
 *.lo

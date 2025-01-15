@@ -12,5 +12,4 @@ project(my_calculator_project)
 add_subdirectory(core)
 add_subdirectory(test)
 add_subdirectory(using)
-
-add_subdirectory(libs/cmake_example_project)
+add_subdirectory(libs)
