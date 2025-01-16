@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.11 FATAL_ERROR)
 
-project(libs)
+project(my_calculator_libs)
 
 include(FetchContent)
 
