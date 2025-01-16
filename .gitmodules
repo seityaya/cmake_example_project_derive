@@ -1,0 +1,3 @@
+[submodule "libs/cmake_example_project"]
+	path = libs/cmake_example_project
+	url = https://github.com/seityaya/cmake_example_project
