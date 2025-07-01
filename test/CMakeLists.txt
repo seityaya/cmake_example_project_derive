@@ -16,4 +16,4 @@ file(GLOB FILES *.c *.h)
 
 add_executable(${PROJECT_NAME} ${FILES})
 
-target_link_libraries(${PROJECT_NAME} PUBLIC my_calc)
+target_link_libraries(${PROJECT_NAME} PUBLIC my_calculator_core)
