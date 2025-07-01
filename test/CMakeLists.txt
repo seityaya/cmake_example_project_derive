@@ -7,7 +7,7 @@
 
 cmake_minimum_required(VERSION 3.0)
 
-project(my_calculator_test)
+project(my_calc_test)
 
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra -Wpedantic -Werror")
@@ -16,4 +16,4 @@ file(GLOB FILES *.c *.h)
 
 add_executable(${PROJECT_NAME} ${FILES})
 
-target_link_libraries(${PROJECT_NAME} PUBLIC my_calculator_core)
+target_link_libraries(${PROJECT_NAME} PUBLIC my_calc_core)

@@ -7,7 +7,7 @@
 
 cmake_minimum_required(VERSION 3.0)
 
-project(my_calculator_core)
+project(my_calc_core)
 
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra -Wpedantic -Werror")
@@ -20,4 +20,4 @@ add_library(${PROJECT_NAME} ${FILES})
 
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 
-target_link_libraries(${PROJECT_NAME} PUBLIC my_math)
+target_link_libraries(${PROJECT_NAME} PUBLIC my_math_core)

@@ -7,7 +7,7 @@
 
 cmake_minimum_required(VERSION 3.0)
 
-project(my_calculator_project)
+project(my_calc_project)
 
 add_subdirectory(core)
 add_subdirectory(test)
